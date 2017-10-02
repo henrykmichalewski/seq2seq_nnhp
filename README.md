@@ -1,7 +1,7 @@
-# seq2seq_nnhp)
+# seq2seq_nnhp
 Sequence two sequence applied to the Mizar dataset in the prefix notation
 
-Training done on 4 Titan-X GPUs. The original data is (here)[https://github.com/JUrban/deepmath/tree/master/nnhpdata]. The code is the tensorflow implementation of (seq2seq with attention)[https://github.com/tensorflow/nmt] (tensorflow 1.4 required). The hyperparemeters file, the dictionary (identical for premises and theorems) as well as the parallel corpus of theorems and premises are included in this repo. 
+Training done on 4 Titan-X GPUs. The original data is [here](https://github.com/JUrban/deepmath/tree/master/nnhpdata). The code is the tensorflow implementation of [seq2seq with attention](https://github.com/tensorflow/nmt) (tensorflow 1.4 required). The hyperparemeters file, the dictionary (identical for premises and theorems) as well as the parallel corpus of theorems and premises are included in this repo. 
 
 Examples of behavior after 10000 steps:
 
